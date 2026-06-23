@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Base de datos vectorial
+chroma_db/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos generados por Reflex
+.web/
+.states/
+reflex.db
+
+# Variables de entorno (con claves secretas)
+.env
+.env.local
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor de código
+.vscode/
+.idea/
